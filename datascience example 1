@@ -1,0 +1,150 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Program01.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Thakshanah/Thakshanah/blob/main/datascience%20example%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **This is the first program of the Data Science class - 2022**"
+      ],
+      "metadata": {
+        "id": "IXGx05_3Uqd-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "ageY=22\n",
+        "ageF=40\n",
+        "incomeY=20000\n",
+        "incomeF=150000\n",
+        "distance=math.sqrt((ageY-ageF)**2+(incomeY-incomeF)**2)\n",
+        "print(distance)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "loYPdN9Def7I",
+        "outputId": "a7623799-3d09-46af-e505-74045b096ca5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "130000.00124615384\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "_zF22j_GfaY6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "ageY=22\n",
+        "ageF=40\n",
+        "incomeY=20000\n",
+        "incomeF=150000\n",
+        "distance=(((ageY-ageF)**2+(incomeY-incomeF)**2)**(1/2))\n",
+        "print(distance)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "77908477-39cc-481c-923a-27ddc54f4e18",
+        "id": "IEDZY1H8fa60"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "130000.00124615384\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "OdAtmuS3Rip5"
+      },
+      "outputs": [],
+      "source": [
+        "myNum = 10\n",
+        "if myNum > 15:\n",
+        "  print(\"Hello\")\n",
+        "else:\n",
+        "  print(\"Hi\")\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(myNum *2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "L3QQRTHwTKqx",
+        "outputId": "b41a05f6-8690-4511-cf1e-d80def9d5c15"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
